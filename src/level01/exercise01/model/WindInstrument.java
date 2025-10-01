@@ -19,11 +19,6 @@ public class WindInstrument extends Instrument {
         System.out.println("WindInstrument intance created");
     }
 
-
-    /**
-     * Abstract method.
-     * Displays a message indicating that the instrument is playing.
-     */
     @Override
     public void play(){
         System.out.println("A wind instrument is playing.");

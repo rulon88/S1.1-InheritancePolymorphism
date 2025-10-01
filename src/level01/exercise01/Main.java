@@ -11,10 +11,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("=== Start of program ===");
 
-        // Create the controller that handles program flow
-        ApplicationController controller = new ApplicationController();
 
-        // Run the controller: load, list and play instruments
+        ApplicationController controller = new ApplicationController();
         controller.run();
 
         System.out.println("=== End of program ===");

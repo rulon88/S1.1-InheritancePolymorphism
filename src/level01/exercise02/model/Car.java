@@ -2,21 +2,15 @@ package level01.exercise02.model;
 
 public class Car {
 
-    // Constant brand (shared, never changes)
     private static final String BRAND = "Ford";
-
-    // Static field (shared by all cars)
     private static String model;
-
-    // Final field (set once per object)
     private final int horsepower;
 
     public Car(String model, int horsepower) {
-        Car.model = model;          // affects all instances
-        this.horsepower = horsepower; // unique to each object
+        Car.model = model;
+        this.horsepower = horsepower;
     }
 
-    // Getters
     public static String getBrand() {
         return BRAND;
     }
@@ -29,6 +23,14 @@ public class Car {
         return horsepower;
     }
 
+    public static void accelerate() {
+        System.out.println("The car is accelerating...");
+    }
+
+    public static void brake() {
+        System.out.println("The car is braking...");
+    }
+
     @Override
     public String toString() {
         return "Car{" +
@@ -38,4 +40,3 @@ public class Car {
                 '}';
     }
 }
-

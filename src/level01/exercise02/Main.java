@@ -2,9 +2,6 @@ package level01.exercise02;
 
 import level01.exercise02.application.ApplicationController;
 
-/**
- * Main entry point of the program.
- */
 public class Main {
     public static void main(String[] args) {
         System.out.println("=== Start of program ===");
