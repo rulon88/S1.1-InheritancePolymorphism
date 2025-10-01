@@ -128,7 +128,7 @@ java -jar OOPExercises.jar
 
 ## 📦 Repository
 You can find the source code on GitHub:  
-🔗 https://github.com/tuusuario/S1.1-InheritancePolymorphism
+🔗 https://github.com/rulon88/S1.1-InheritancePolymorphism
 
 ---
 
